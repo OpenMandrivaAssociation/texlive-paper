@@ -1,3 +1,9 @@
+# revision 19538
+# category Package
+# catalog-ctan /macros/latex/contrib/paper
+# catalog-date 2008-12-29 18:04:35 +0100
+# catalog-license gpl
+# catalog-version 1.0l
 Name:		texlive-paper
 Version:	1.0l
 Release:	1
@@ -55,6 +61,7 @@ section and new commands for revisions.
 #- source
 %doc %{_texmfdistdir}/source/latex/paper/paper.drv
 %doc %{_texmfdistdir}/source/latex/paper/paper.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +72,5 @@ section and new commands for revisions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
