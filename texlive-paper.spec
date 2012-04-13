@@ -1,12 +1,12 @@
-# revision 25086
+# revision 25802
 # category Package
 # catalog-ctan /macros/latex/contrib/paper
-# catalog-date 2008-12-29 18:04:35 +0100
+# catalog-date 2012-01-13 09:08:17 +0100
 # catalog-license gpl
 # catalog-version 1.0l
 Name:		texlive-paper
 Version:	1.0l
-Release:	3
+Release:	4
 Summary:	Versions of article class, tuned for scholarly publications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paper
