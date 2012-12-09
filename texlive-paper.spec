@@ -61,3 +61,25 @@ section and new commands for revisions.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0l-4
++ Revision: 790732
+- Update to latest release.
+
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0l-3
++ Revision: 762692
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0l-2
++ Revision: 754637
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0l-1
++ Revision: 719185
+- texlive-paper
+- texlive-paper
+- texlive-paper
+- texlive-paper
+
