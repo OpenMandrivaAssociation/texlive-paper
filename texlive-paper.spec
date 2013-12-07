@@ -6,7 +6,7 @@
 # catalog-version 1.0l
 Name:		texlive-paper
 Version:	1.0l
-Release:	4
+Release:	5
 Summary:	Versions of article class, tuned for scholarly publications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paper
