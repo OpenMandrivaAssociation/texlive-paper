@@ -1,6 +1,6 @@
 Name:		texlive-paper
 Version:	34521
-Release:	1
+Release:	2
 Summary:	Versions of article class, tuned for scholarly publications
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/paper
